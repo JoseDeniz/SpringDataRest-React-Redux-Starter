@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/JoseDeniz/SpringDataRest-React-Redux-Starter.svg?branch=master)](https://travis-ci.org/JoseDeniz/SpringDataRest-React-Redux-Starter)
+
 # SpringDataRest-React-Redux-Starter
 
 Bootstrap to start a project with [Spring Data Rest](http://projects.spring.io/spring-data-rest/) and [React.js](https://facebook.github.io/react/) + [Redux](http://redux.js.org/)
