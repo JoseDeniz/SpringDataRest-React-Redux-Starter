@@ -1,0 +1,8 @@
+language: java
+jdk:
+  - oraclejdk8
+deploy:
+  provider: pages
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
