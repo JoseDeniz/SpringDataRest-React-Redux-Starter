@@ -2,6 +2,8 @@ language: java
 jdk:
   - oraclejdk8
 deploy:
+  on:
+    branch: master
   branches:
     only:
       - master
