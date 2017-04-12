@@ -6,4 +6,4 @@ deploy:
    provider: heroku
    api-key:
     secure: $HEROKU_API_KEY
-   app: ci-spring-boot-data-rest-react-redux-starter
+   app: ci-spring-boot-data-rest-react
