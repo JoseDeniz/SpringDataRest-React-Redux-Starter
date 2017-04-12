@@ -10,4 +10,4 @@ deploy:
     secure: $HEROKU_API_KEY
    app:
     master: ci-spring-boot-data-rest-react
-    pre: ci-spring-boot-data-rest-pre
+    develop: ci-spring-boot-data-rest-pre
