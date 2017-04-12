@@ -2,9 +2,6 @@ language: java
 jdk:
   - oraclejdk8
 deploy:
-   branches:
-     only:
-       - master
    provider: heroku
    api-key:
     secure: $HEROKU_API_KEY
