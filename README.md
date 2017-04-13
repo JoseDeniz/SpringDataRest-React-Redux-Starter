@@ -43,3 +43,7 @@ You just need [Maven](https://maven.apache.org/). It will generate all compiled 
       - `npm start` to launch a local server with _livereload_ 
       - `npm run build` to build the minified bundle 
       - `npm run test:watch` to run and watch the tests 
+
+## Troubleshooting
+
+  - If you make changes in the frontend and you want to see te entire app (backend <-> frontend) working correctly, you must have to run `npm run build` and then _run_ your java project to see the front changes. 
