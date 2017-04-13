@@ -10,8 +10,8 @@ The project:
 - Has continuous integration using [Travis CI](https://travis-ci.org/)
 - It's deployed in Heroku:
 
-  - [Production App](ci-spring-boot-data-rest-react.herokuapp.com)
-  - [Stage App](ci-spring-boot-data-rest-stage.herokuapp.com)
+  - [Production App](https://ci-spring-boot-data-rest-react.herokuapp.com/)
+  - [Stage App](https://ci-spring-boot-data-rest-stage.herokuapp.com)
 
 ## Setup:
 
