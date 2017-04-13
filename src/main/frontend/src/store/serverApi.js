@@ -25,7 +25,7 @@ export default function serverApi(storage = storageWrapper()) {
     }
 
     function parseStatusCode(response) {
-        let successStatusCodes = [200, 203];
+        let successStatusCodes = [200, 201, 203];
 
         if (successStatusCodes.includes(response.status)) {
             return Promise.resolve(response);

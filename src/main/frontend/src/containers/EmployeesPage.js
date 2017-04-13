@@ -5,9 +5,14 @@ import EmployeeForm from '../components/EmployeeForm';
 export class EmployeesPage extends React.Component {
     constructor(props, context) {
         super(props, context);
+        this.refreshData = this.refreshData.bind(this);
     }
 
     componentDidMount() {
+        this.refreshData();
+    }
+
+    refreshData() {
         handleAsyncAction(
             this.props.actions.loadEmployees(),
             this.props.notifier,
@@ -15,6 +20,7 @@ export class EmployeesPage extends React.Component {
     }
 
     render() {
+        const actions = Object.assign({}, this.props.actions, {updateEmployees: this.refreshData});
         return (
             <div>
                 <table>
@@ -38,7 +44,7 @@ export class EmployeesPage extends React.Component {
                     </tbody>
                 </table>
                 <h3>Create a new Employee</h3>
-                <EmployeeForm actions={this.props.actions} notifier={this.props.notifier}/>
+                <EmployeeForm actions={actions} notifier={this.props.notifier}/>
             </div>
         );
     }

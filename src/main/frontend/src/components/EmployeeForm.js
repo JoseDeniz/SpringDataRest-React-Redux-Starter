@@ -23,7 +23,8 @@ class EmployeeForm extends React.Component {
         handleAsyncAction(
             this.props.actions.saveEmployee(this.state),
             this.props.notifier,
-            this.props.router);
+            this.props.router,
+            this.props.actions.updateEmployees);
     }
 
     render() {

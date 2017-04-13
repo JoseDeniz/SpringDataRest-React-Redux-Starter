@@ -1,5 +1,5 @@
-import {isNotAuthorized} from "../../utils/security";
-import * as routePaths from "../../constants/routePaths";
+import {isNotAuthorized} from '../../utils/security';
+import * as routePaths from '../../constants/routePaths';
 
 function getMessage(obj) {
     if (!obj) return '';
@@ -13,7 +13,7 @@ function getMessage(obj) {
     return msg;
 }
 
-export function handleAsyncAction(promise, notifier, router) {
+export function handleAsyncAction(promise, notifier, router, callback = undefined) {
     if (!promise || typeof(promise.then) !== 'function') {
         throw new Error('Invalid argument, expecting a Promise but was: ' + typeof(promise));
     }
@@ -21,6 +21,7 @@ export function handleAsyncAction(promise, notifier, router) {
     notifier.startLoad(handler);
     promise.then(
         (success) => {
+            if(callback) callback();
             notifier.stopLoad(handler);
             let message = getMessage(success);
             if (message) {
