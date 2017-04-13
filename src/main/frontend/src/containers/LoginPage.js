@@ -12,14 +12,15 @@ export class LoginPage extends React.Component {
     }
 
     login() {
-        let credentials = {user: this.username, password: this.password };
         let router = this.props.router;
+        router.push(routePaths.EMPLOYEES_ROUTE);
+        /*
+        let credentials = {user: this.username, password: this.password };
         let actions = this.props.actions;
         actions.doLogin(credentials).then(() => {
-            router.push(routePaths.EMPLOYEES_ROUTE);
         }, (error) => {
             actions.loginError(error.message);
-        });
+        });*/
     }
 
     onPasswordChange(evt) {
