@@ -1,0 +1,14 @@
+.vex.vex-theme-top .vex-content.vex-custom-content .dialog-ok-button{
+    text-align: right;
+}
+
+.vex.vex-theme-top .vex-content.vex-custom-content .dialog-ok-button input{
+    bottom: 30px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    background-color: #74a7b4;
+    text-transform: uppercase;
+    color: white;
+    width: 100px;
+}

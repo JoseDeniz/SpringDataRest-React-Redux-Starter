@@ -8,7 +8,11 @@
 
     <div id="app"></div>
 
-    <script src="dist/bundle.js"></script>
+    <script type="text/javascript">
+        window.oauthUrl = "http://";  // set your backend oauth url
+        localStorage.setItem('authToken', 'valid_token'); // remove if oauth is implemented
+    </script>
+    <script src="built/bundle.js"></script>
 
 </body>
 </html>
