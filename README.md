@@ -46,4 +46,10 @@ You just need [Maven](https://maven.apache.org/). It will generate all compiled 
 
 ## Troubleshooting
 
-  - If you make changes in the frontend and you want to see te entire app (backend <-> frontend) working correctly, you must have to run `npm run build` and then _run_ your java project to see the front changes. 
+  - If you make changes in the frontend and you want to see te entire app (backend <-> frontend) working correctly, you must have to run `npm run build` and then _run_ your java project to see the front changes.
+  
+## TODO:
+
+  - Authentication with OAuth
+  - Styles
+  - Frontend Tests
