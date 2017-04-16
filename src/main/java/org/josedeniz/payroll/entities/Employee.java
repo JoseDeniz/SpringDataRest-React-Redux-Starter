@@ -1,4 +1,4 @@
-package org.josedeniz.payroll.domain;
+package org.josedeniz.payroll.entities;
 
 import lombok.Data;
 
