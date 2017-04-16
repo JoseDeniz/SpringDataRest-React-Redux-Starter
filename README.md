@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/JoseDeniz/SpringDataRest-React-Redux-Starter.svg?branch=master)](https://travis-ci.org/JoseDeniz/SpringDataRest-React-Redux-Starter)
+![Build Status](https://travis-ci.org/JoseDeniz/SpringDataRest-React-Redux-Starter.svg?branch=master) ![Build Status](https://travis-ci.org/JoseDeniz/SpringDataRest-React-Redux-Starter.svg?branch=stage)
 
 # SpringDataRest-React-Redux-Starter
 
