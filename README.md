@@ -1,6 +1,6 @@
 ![Build Status](https://travis-ci.org/JoseDeniz/SpringDataRest-React-Redux-Starter.svg?branch=master) ![Build Status](https://travis-ci.org/JoseDeniz/SpringDataRest-React-Redux-Starter.svg?branch=stage)
 
-# SpringDataRest-React-Redux-Starter
+# SpringDataRest-React-Redux-Starter (This project was a spike and is stopped)
 
 Bootstrap to start a project with [Spring Data Rest](http://projects.spring.io/spring-data-rest/) and [React.js](https://facebook.github.io/react/) + [Redux](http://redux.js.org/)
 
@@ -8,10 +8,6 @@ The project:
 
 - Contains a demo app that can be removed easily.
 - Has continuous integration using [Travis CI](https://travis-ci.org/)
-- It's deployed in Heroku:
-
-  - [Production App](https://ci-spring-boot-data-rest-react.herokuapp.com/)
-  - [Stage App](https://ci-spring-boot-data-rest-stage.herokuapp.com)
 
 ## Setup:
 
