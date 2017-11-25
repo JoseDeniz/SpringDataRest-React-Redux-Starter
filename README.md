@@ -5,7 +5,6 @@ Bootstrap to start a project with [Spring Data Rest](http://projects.spring.io/s
 The project:
 
 - Contains a demo app that can be removed easily.
-- Has continuous integration using [Travis CI](https://travis-ci.org/)
 
 ## Setup:
 
